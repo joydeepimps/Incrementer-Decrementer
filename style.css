@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgb(24, 22, 22);
+    color: beige;
+}
+
+.wrapper{
+    margin: auto;
+    width: 800px;
+    text-align: center;
+    /* border: 1px solid white; */
+    padding: 20px 0;
+    height: 100%;
+}
+.container{
+    margin: auto 0;
+    padding-top: 100px;
+    padding-bottom: 20px;
+
+}
+
+h1{
+    font-size: 4.2rem;
+    text-align: center;
+    margin-bottom: 25px;
+    
+
+}
+
+.btn-control{
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+    background-color: rgb(24, 22, 22);
+    color: beige;
+    border: 0.5px solid beige;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-control:hover{
+    background-color: beige;
+    color: rgb(24, 22, 22);
+}
+
+#number{
+    font-size: 3.1rem;
+    margin: 25px auto;
+    text-align: center;
+}
